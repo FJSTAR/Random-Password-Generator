@@ -71,3 +71,17 @@ body {
     padding: 16px 26px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 10% 0;
+        padding: 4%;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    .display input {
+        width: inherit;
+    }
+}
